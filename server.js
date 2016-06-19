@@ -86,7 +86,7 @@ app.delete('/users/:user_id',      users.delete()      );
 app.get   ('/api/search',          api.search()        );
 app.post  ('/api/users',           api.create()        );
 app.post  ('/users/authenticate',  users.authenticate());
-app.post  ('/admin/LoadEvent',     loadEvent.loadEvent());
+app.post  ('/admin/loadEvent',     loadEvent.loadEvent());
 app.post  ('/admin/validate',      validaAdmin.validaAdmin());
 app.post  ('/getEvent',            event.getNearEvents());
 app.get   ('/getEvent/:event_id',  event.getEventById);

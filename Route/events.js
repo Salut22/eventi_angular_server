@@ -45,7 +45,7 @@ exports.getNearEvents  = function()
            query = { $and: [
                             {'properties.dateFrom':{ $gte: da} },
                             {'properties.dateTo'  :{ $lte: a  } },
-                            {'details.address.city': comune}
+                            {'details.address.city': comune.toUpperCase()}
                          ],
                    };
        else if (provincia)
@@ -64,7 +64,7 @@ exports.getNearEvents  = function()
 //                   };
 
      // execute the query
-     
+     console.log(JSON.stringify(query));
      Event.find(query)
         .then(function(docs)
            {

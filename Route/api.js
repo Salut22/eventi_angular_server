@@ -11,8 +11,8 @@ exports.create=function()
  return function(req, res)
  {
     console.log('eccomi');
-    var user =req.body.users;
-//     console.log(user);
+    var user =req.body;
+     console.log(req.body);
 //    console.log(req.body);
     var newUser= new User( // crea una nuova instanza per il modello user
     {
@@ -36,7 +36,7 @@ exports.create=function()
     newUser.save()
     .then(function(doc)
     {
-        res.status(200).send({msg:"utente salvato con successo",result:true});    
+        res.status(200).send({msg:"utente salvato con successo",result:doc});    
     })
     .catch(function(err)
     {
