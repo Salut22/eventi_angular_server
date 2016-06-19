@@ -18,15 +18,11 @@ prodotto:   [{
                         dateTo          : {type:Date}
                      },
      details:   {
-            other_id: {
                 // elenchiTelefonici
-                     _idEvent    : { type:String}                                       // _idEvent
-                      },
-        "ph-primary":   String,
-            price   :   {
-                         prc      : {type:Number, min:0},// other info  (Ex. bevande escluse)
-                         quantita : {type:Number, min:0}
-                        },
+        _idEvent    : { type:String},                                       // _idEvent
+        foto        :   String,
+        price       : {type:Number, min:0},// other info  (Ex. bevande escluse)
+       quantita     : {type:Number, min:0}
 
         },
     }]
