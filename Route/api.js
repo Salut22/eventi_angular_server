@@ -36,7 +36,23 @@ exports.create=function()
     newUser.save()
     .then(function(doc)
     {
-        res.status(200).send({msg:"utente salvato con successo",result:doc});    
+        console.log(doc);
+        console.log(doc._id);
+        var newCarrello = new Carrello(
+        {
+         _id      : doc._id   
+        })
+        newCarrello.save()
+        .then(function(doc_carrello)
+        {
+            res.status(200).send({msg:"carrello e utente salvati con successo",result:doc});
+        })
+        .catch(function(err)
+        {
+             logger.error(err);
+             res.status(403).send({ msg: "Carrello non creato", result: doc }); 
+        })
+     
     })
     .catch(function(err)
     {
@@ -44,6 +60,7 @@ exports.create=function()
         res.status(400).send({msg:"utente non salvato",error:err});    
     
     })
+    
     
  }
 }

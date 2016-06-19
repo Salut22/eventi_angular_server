@@ -65,7 +65,7 @@ exports.authenticate = function()
      return function(req, res) 
      {
         var users =req.body;
-        console.log(users);
+//        console.log(users);
         User.findOne({
         'basic.nickname'    : users.username,
         'basic.password'    : users.password
@@ -84,7 +84,7 @@ exports.authenticate = function()
 //        throw new Error('Authentication failed. Wrong password.');
     } 
     else {
-        console.log(user);
+//        console.log(user);
       //if user is found and password is right create a token
         //res.json({message: user});    
 //        var token = jwt.sign(user._id, app.get('superSecret'), {
@@ -105,7 +105,7 @@ exports.authenticate = function()
  //           expiresInMinutes: 1440 // expires in 24 hours
         expiresIn: '36h'
           });
-        console.log(token);
+        //console.log(token);
         res.status(200).send({msg:"Enjoy your token!",result:user, token: token});    
     }
 })

@@ -58,7 +58,7 @@ var users              = require('./Route/users');
 var loadEvent          = require('./Route/loadEvent');
 var validaAdmin        = require('./app/models/validaAdmin');
 var event              = require('./Route/events');
-
+var cart               = require('./Route/cart');
 
 
 var router = express.Router();
@@ -89,8 +89,8 @@ app.post  ('/users/authenticate',  users.authenticate());
 app.post  ('/admin/loadEvent',     loadEvent.loadEvent());
 app.post  ('/admin/validate',      validaAdmin.validaAdmin());
 app.post  ('/getEvent',            event.getNearEvents());
-app.get   ('/getEvent/:event_id',  event.getEventById);
-
+app.get   ('/getEvent/:event_id',  event.getEventById());
+app.get   ('/getCart/:cart_id',    cart.getCartById());
 
 
 //=============================================================================
