@@ -35,6 +35,7 @@ Util         = require('./app/models/util');
 User         = require('./app/models/user');
 Subscribed   = require('./app/models/subscribed');
 Event        = require('./app/models/event');
+Carrello     = require('./app/models/carrello');
 
 
 //=============================================================================
