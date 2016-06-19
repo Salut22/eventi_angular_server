@@ -1,6 +1,6 @@
 var mongoose   = require('mongoose');
 //var Bear       = require('../app/models/bear');
-var Cart       = require('../app/models/carrello');
+var Carrello       = require('../app/models/carrello');
 
  exports.getCartById = function()   
     {
@@ -20,33 +20,41 @@ var Cart       = require('../app/models/carrello');
  exports.addEvent = function()   
     {
         return function(req, res){
-        console.log(req.body);
+        console.log(JSON.stringify(req.body));
+        var cart=req.body.cart[0];
         Carrello.findById(req.body.userId)
         .then(function(docs)
            {
             if (docs)
             { 
                var trovato=false;
+               console.log(JSON.stringify(docs.prodotto[0].details));
                for (i in docs.prodotto)
                 {
-                    if (req.body.prodotto.details.idEvento==docs.prodotto[i].details._idEvent)
+                    if (cart.details.idEvento==docs.prodotto[i].details.idEvento)
                     {
-                        docs.prodotto[i].details.quantita++;
+                        console.log('prima '+docs.prodotto[i].details.quantita);
+                        docs.prodotto[i].details.quantita=cart.details.quantita;
+                        console.log('dopo '+docs.prodotto[i].details.quantita);
                         trovato = true;
                     }
                 }
+                console.log(trovato);
                 if (trovato == false)
-                {
-                    docs.prodotto.push(req.body.prodotto);
+                {   
+//                    console.log(req.body.cart[0]);
+                    docs.prodotto.push(req.body.cart);
+                    console.log('if'+docs.prodotto);
                 }
-                 docs.prodotto.save()
+                //console.log(JSON.stringify(docs.prodotto,null,2));
+                 docs.save()
                  .then(function(docs)
                  {
-                     res.status(200).send({ msg: "prodotto aggiornato" result: docs }); 
+                     res.status(200).send({ msg: "prodotto aggiornato", result: docs }); 
                  })
                  .catch(function(err)
                  {
-                  res.status(400).send({ msg: "Bad Request  Error", error: err.toString() });   
+                  res.status(400).send({ msg: "Bad Request*************  Error", error: err.toString() });   
                  })
             }
             else 
@@ -56,7 +64,7 @@ var Cart       = require('../app/models/carrello');
           })
        .catch(function(err)
               { console.log('Cart non presente'+err);
-                res.status(400).send({ msg: "Bad Request  Error", error: err.toString() }); 
+                res.status(400).send({ msg: "Bad Request################## Error", error: err.toString() }); 
               });
     }
  }

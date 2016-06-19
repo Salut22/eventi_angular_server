@@ -38,10 +38,26 @@ exports.create=function()
     {
         console.log(doc);
         console.log(doc._id);
-        var newCarrello = new Carrello(
-        {
-         _id      : doc._id   
-        })
+        var cart=
+            {    _id:doc._id,
+                'prodotto':
+                [{
+                    'properties':
+                    {
+                      'title'   :"",
+                      'dateFrom':"",
+                      'dateTo'  :""
+                    },
+                    'details':
+                    {
+                      '_idEvento':"",
+                      'photo'   :"",
+                      'price'   :0,
+                      'quantita':0
+                    }
+                }]  
+            };
+        var newCarrello = new Carrello(cart)
         newCarrello.save()
         .then(function(doc_carrello)
         {
@@ -49,7 +65,6 @@ exports.create=function()
         })
         .catch(function(err)
         {
-             logger.error(err);
              res.status(403).send({ msg: "Carrello non creato", result: doc }); 
         })
      

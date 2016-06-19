@@ -19,8 +19,8 @@ prodotto:   [{
                      },
      details:   {
                 // elenchiTelefonici
-        _idEvent    : { type:String},                                       // _idEvent
-        foto        :   String,
+        idEvento    : { type:String},                                       // _idEvent
+        photo       :   String,
         price       : {type:Number, min:0},// other info  (Ex. bevande escluse)
        quantita     : {type:Number, min:0}
 
