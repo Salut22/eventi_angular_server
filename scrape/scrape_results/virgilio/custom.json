@@ -1,0 +1,47 @@
+{"city":"custom/custom","other_id":"none", "jsonPois":[
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+          "4bf58dd8d48988d14b941735tris",
+          "4d4b7105d754a06373d81259",
+          "4bf58dd8d48988d14b941735bis"
+      ],
+      "microCategories": [],
+      "title": "FAI: Tracce del vino",
+      "dateFrom": "2016-06-12T16:00:00.000Z",
+      "dateTo": "2016-06-12T18:00:00.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Cantina Terra Fageto",
+        "street": "via Valdaso 52",
+        "city": "Pedaso",
+        "zip": "63827",
+        "country": "FM",
+        "state": "Italia"
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1214069575279372/",
+        "email"  : "faigiovani.fermo@fondoambiente.it"
+      },
+      "ph-primary": "https://scontent-mxp1-1.xx.fbcdn.net/t31.0-8/13403828_528623900663237_3399500832852051978_o.jpg",
+      "logos":["http://www.fondoambiente.it/img/logo-FAI.gif",
+               "http://server.eppoi.eu/pois/logos/consorzio_vini_piceni/consorzio_vini_piceni.gif",
+               "http://terrafageto.it/wp-content/uploads/2015/03/Logo_Positivo_Terrafaggeto_Retina_418x250.png"],
+      "logo-primary": "http://server.eppoi.eu/pois/logos/consorzio_vini_piceni/consorzio_vini_piceni.gif",
+      "price": {
+        "prc_info": "prezzi a partire da 5€(quota di benvenuto), 10€ 18-25 anni, 20€ 26-35 anni"
+      },
+      "desc": "<span>Il FAI giovani di Fermo e il FAI giovani di Ascoli Piceno si incontrano per fare squadra!!!<br> Sono tutti invitati a partecipare!!!<br> In occasione di questo incontro, visiteremo l'azienda agricola Terra Fageto di Pedaso, orgoglio del territorio Piceno: il Dott. Armando Falcioni, direttore del Consorzio Tutela Vini Piceni, ci racconterà il lavoro dell'azienda.<br> <br> La tradizione enologica sarà infatti il collegamento tra storia, innovazione e valorizzazione del territorio.<br> Il FAI, da sempre impegnato nella tutela del patrimonio in tutte le sue forme, coordinerà gli interventi sottolineando l’importanza della testimonianza dei documenti di archivio storico per un azienda, sulla scia di quanto già fatto con il progetto \"Tracce del Gusto\" del Ministero dei beni culturali.<br> I gruppi FAI, grazie alla disponibilità dell’azienda agricola Terra Fageto, la collaborazione del Consorzio dei Vini Piceni, il contributo innovativo della startup Eppoi, offriranno una degustazione di vini di propria produzione e dei prodotti del territorio. Iniziativa a partire da 5 euro.</span>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.826926",
+        "43.09356"
+      ]
+    }
+  }
+]}

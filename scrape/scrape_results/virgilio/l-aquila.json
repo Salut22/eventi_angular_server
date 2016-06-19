@@ -1,0 +1,756 @@
+{"city":"virgilio/virgilio","other_id":"virgilio", "jsonPois":[
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d1e5931735_6",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Corso Estivo Ballo",
+      "dateFrom": "2016-06-07T18:30:00.000Z",
+      "dateTo": "2016-06-07T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Teatro dei 99",
+        "street": "Via Rocco Carabba 31",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "893161_102"
+      },
+      "last_update": {
+        "virgilio": 1465661182426
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/907752419335488/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/t31.0-8/s720x720/13248470_1009523245767780_7990760180999693073_o.jpg",
+      "desc": "<p>KG dance latino per lo sport, il divertimento <br>\no inseguire il sogno di vivere per la danza.<br>\nKG dance Latino è qui per voi.</p><p>Muoviti a Ritmo di Musica</p><p>C’è un <strong>ballo per ogni tipo di musica </strong><br>\ne ogni tipo di corpo.<br>\nBalli Caraibici: Per andare in vacanza <br>\ne non Restare a Guardare.<br>\nBalli di gruppo: Impara con noi le TOP TEN<br>\ndel momento.<br>\nCaribbean Zumba Kids: per muoversi, stare <br>\nin forma e divertirsi imparando.<br>\nPer bambini da 5 a 12 anni.</p><p>Giorni e Orari<br>\nGiugno - luglio 2016</p><p>Centro Studi Aq Danza Pile <br>\nTeatro dei ‘99</p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>Martedì <br>\nore 20.30 - Caraibico Principianti<br>\nore 21.45 - Lady 4 Style</p><p><br>\nSEDE KG Genzano SASSA<br>\nvia Roiense - strada x Roio <br>\naltezza fermata del BUS</p><p><br>\nGiovedì<br>\nore 18.30 - Caribbean Zumba Kids e Jr <br>\n(chiama per info)<br>\nore 19.30 - Balli di gruppo - HIT del momento<br>\nore 20.30 - Caraibico Principianti<br>\nore 21.45 - Intermedio Avanzato</p><p><br>\nCorsi per Tutte le età e tutti i livelli.<br>\nNon fate i timidi</p><p>Tel. 338 2802302<br>\nwww.kgdance.eu<br>\nwww.facebook.com/kgdancelatino.it</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.38121",
+        "42.35518"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4d4b7104d754a06370d81259",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Walkabout - suono, immagine, ambiente",
+      "dateFrom": "2016-06-07T17:15:00.000Z",
+      "dateTo": "2016-06-07T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Auditorium Del Parco",
+        "city": "L'aquila",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "915339_102"
+      },
+      "last_update": {
+        "virgilio": 1465661191140
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/895045837288934/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/13315680_538715456316810_5268537555656379716_n.jpg?oh=94f9545e3cf3dab28f95f6a22cbddd57&oe=57C4C1F7",
+      "desc": "<p>Accademia di Belle Arti <strong>L'Aquila</strong><br>\nPANEL DISCUSSION <br>\n<strong>WALKABOUT</strong>\t<br>\n<strong>suono</strong>, <strong>immagine</strong>, <strong>ambiente</strong><br>\na cura di Maurizio Coccia <br>\ncon Cecilia Canziani, Antonello Colimberti, Maurizio Coccia e Silvano Manganaro</p><p>La discussione organizzata dall’Accademia di Belle Arti L’Aquila, a cura del prof. Maurizio Coccia: <strong>Walkabout</strong>. <strong>Suono</strong>, <strong>immagine</strong>, <strong>ambiente</strong>. “Nella cultura aborigena, il termine <strong>WALKABOUT definisce un rito di passaggio</strong>; un lungo viaggio alla ricerca della propria identità nel momento dello sviluppo. Ma non solo. È anche un modo per collegarsi agli esseri soprannaturali che hanno creato ogni forma di vita mediante il canto, la danza, il cammino. La tavola rotonda che prende spunto dal termine mira a indagare pratiche artistiche non “oggettuali”, ma fondate sul <strong>suono e le sue numerose implicazioni</strong>, sia percettive sia spaziali.”</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.4028751",
+        "42.3535881"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d1e5931735_6",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Musica Elettroacustica, Sound Art e Nuova Liuteria",
+      "dateFrom": "2016-06-08T18:30:00.000Z",
+      "dateTo": "2016-06-08T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Auditorium Del Parco",
+        "city": "L'aquila",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "900659_102"
+      },
+      "last_update": {
+        "virgilio": 1465661200571
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1696302460632196/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/t31.0-0/p180x540/13350397_538716486316707_3969813474908795097_o.jpg",
+      "desc": "<p>SOCIETA’ AQUILANA DEI CONCERTI “BONAVENTURA BARATTELLI”, Conservatorio di <strong>Musica </strong>“Alfredo Casella” L’Aquila, Accademia di Belle Arti L’Aquila<br>\nore 20.30<br>\nesterno Auditorium<br>\nConduction <br>\nper l’orchestra “elettroAQustica” con strumenti auto costruiti e tradizionali <br>\na cura degli studenti del Dipartimento di <strong>Musica Elettronica del Conservatorio </strong>‘Alfredo Casella’ dell’Aquila, di musicisti ospiti e dell’Accademia di Belle Arti L’Aquila.<br>\nDennis Bastioni, Gabriele Boccio, Alessio Di Francesco, Antonio Martella, Lorenzo Mastracci, Michele Mastracci, Alessandro Rivolta, Daniel Scorranese, Diego Sebastiani, Vlad Voicu<br>\nore 21,15 <br>\ninterno Auditorium<br>\nAgostino Di Scipio 2 pezzi di ascolto e sorveglianza (2009 – 2010) Sistema autonomo di generazione e trasformazione del suono con flauto ed elettronica dal vivo<br>\nWalter Prati Da Five short sories (2004) 3 movimenti per violoncello e supporto elettronico<br>\nMaria Cristina De Amicis Re-spi-ro (2015) per flauto ed elettronica<br>\nSimone Pappalardo Rizoma / Alcina (2015) Installazione performativa creata per la manifestazione<br>\nL’Aquila, Re_Place “La città si illumina di nuovo” edizione 2105 per flauto, violoncello, sculture sonore ed elettronica<br>\nGianni Trovalusci flauto<br>\nWalter Prati violoncello ed elettronica<br>\nSimone Pappalardo performer elettroacustico<br>\nCoordinamento e Allestimento Audio – Dipartimento di <strong>Musica e Nuove tecnologie</strong><br>\nMaria Cristina De Amicis, Cristian Paolucci, Maurizio Di Berardino, Alessio Fioretti</p><p><strong>Musica Elettroacustica</strong>, <strong>Sound Art e Nuova Liuteria</strong><br>\nIl progetto/concerto è dedicato alle ‘frontiere’ più innovative del linguaggio <strong>musicale contemporaneo</strong>, nel punto in cui la sperimentazione incontra le tecnologie d’avanguardia, la riflessione poetica su temi di grande attualità, coinvolgendo fisicamente e concettualmente lo Spazio, come elemento stesso del fare <strong>musica</strong>, rendendolo protagonista dell’evento.<br>\nLa <strong>Musica e il Suono divengono dei parametri fondanti inseriti nello spazio fisico</strong>, attraverso la realizzazione di postazioni ‘risuonanti’ all’interno degli spazi dell’<strong>Auditorium del Parco</strong>, e in quello virtuale, attraverso l’interazione tra suoni acustici - prodotti da strumenti, oggetti sonori, strumenti d’invenzione realizzati con materiali di riciclo - e suoni elettronici - generati da diverse fonti, come suoni di feedback, elaborazione di sonorità prodotte da oggetti sonori, software dedicati.<br>\nUn evento sonoro complesso, dove i diversi elementi <strong>musicali e performativi saranno proposti all’ascolto e alla visione attraverso un gioco combinatorio affascinante</strong>, con i brani di Maria Cristina De Amicis, Agostino Di Scipio, Walter Prati e le sculture sonore di Simone Pappalardo in interazione con il flauto, il violoncello e l’elettronica.<br>\nAll’esterno dell’Auditorium, il primo momento caratterizzante della manifestazione: si esibirà una singolare Orchestra di strumenti elettroacustici autocostruiti e strumenti tradizionali, organizzata secondo la innovativa pratica della Conduction, ovvero dell’improvvisazione guidata. L’orchestra prende il nome dalla rassegna di arti sonore “elettroAQustica” del Conservatorio dell’Aquila.</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.4028751",
+        "42.3535881"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d1e5931735_6",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Mattia Ferella In Concerto",
+      "dateFrom": "2016-06-08T20:00:00.000Z",
+      "dateTo": "2016-06-08T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "All Beers",
+        "city": "L'aquila",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "904185_102"
+      },
+      "last_update": {
+        "virgilio": 1465661213121
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1737656206448276/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13325512_1683665445232516_7591680628392889169_n.png?oh=f76eece66bdf75a82a5a9c67ad2e07c8&oe=57D205FC",
+      "desc": "<p>Ci apprestiamo a vivere un'intensa estate di concerti...Naturalmente la data 0 non poteva che essere in un luogo che con il tempo è diventato una sorta di seconda casa per tutti coloro a cui piace seguirci ed ascoltare le nostre storie: <strong>All Beers</strong> (Viale della Croce Rossa, <strong>L'Aquila</strong>)...Vi aspettiamo numerosi! Stay Folk.<br>\nLo Staff <strong>Mattia Ferella Official</strong></p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.3945216",
+        "42.3565011"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d11a941735",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Il Mercoledì \"Corona y Tequila party\" - dj set & live percussion",
+      "dateFrom": "2016-06-08T18:00:00.000Z",
+      "dateTo": "2016-06-08T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Andalucia - Tapas Y Cerveceria",
+        "street": "Via Eusanio Stella 5",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "913655_102"
+      },
+      "last_update": {
+        "virgilio": 1465661225059
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1731106727144294/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13327549_1779816102247359_4783254225203247300_n.jpg?oh=2a2385a38f6e26f3f5ca5df03d7e45f1&oe=57CD1D72",
+      "desc": "<p>Seconda serata del <strong>Mercoledì Andalucia in versione estiva</strong>, \"<strong>Corona y Tequila party</strong>\", Angelo D'Eramo dj set &amp; live <strong>percussion by Paky</strong>! Nella postazione esterna drinks a base di frutta fresca: <strong>Corona y tequila Mojito </strong>- Capiroska - Capiriña e qualche sorpresa... (con fragola, pesca, melone, anguria, kiwi e frutti esotici secondo distponibilità). All'interno birre alla spina, long drinks tradizionali, vino, sangria fresca, acqua de Valencia ecc. Vamos a la fiesta!!!</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.38282",
+        "42.35267"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "5267e4d8e4b0ec79466e48c5",
+        "4eb1daf44b900d56c88a4600",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Corsi Deep e Dry Suit Diver PADI",
+      "dateFrom": "2016-06-02T07:30:00.000Z",
+      "dateTo": "2016-06-12T18:00:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "L'Aquila Diving Center (Club L'Aquila Nuoto)",
+        "street": "Viale Ovidio 3",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "725423_102"
+      },
+      "last_update": {
+        "virgilio": 1465661232904
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1603342793280210/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/hphotos-xtf1/t31.0-8/s720x720/13087196_1036485623093390_6397572137414357028_o.jpg",
+      "desc": "<h2 class=\"auto_title\">Nuove emozioni ti aspettano con le SPECIALITÀ DEL TRIMESTRE PADI!</h2><p>Corso DRY SUIT <strong>DIVER </strong>(muta stagna)<br>\nGiovedì 2 Giugno 2016 - Trevignano Romano<br>\nManuale Dry Suit <strong>Diver in Italiano </strong>+ n.2 Immersioni in lago + attrezzatura (gav, erogatore e muta stagna) + certificazione<br>\nCOSTO 150€</p><p>Corso DEEP <strong>DIVER </strong>(immersione profonda -40mt)<br>\nDomenica 5 Giugno 2016 - Trevignano Romano 2 immersioni<br>\nDomenica 12 Giugno 2016 - Isola di Procida 2 immersioni<br>\nManuale Deep <strong>Diver in Italiano </strong>+ n.2 Immersioni in lago + n.2 immersioni Procida + attrezzatura (gav, erogatore) + certificazione + 1 cena e 1 notte a BAIA (NA)<br>\nCOSTO 325€</p><p>OFFERTA DRY SUIT + DEEP <strong>DIVER 400</strong>€ (anzichè 475€)</p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>SCADENZA ISCRIZIONI: 16 MAGGIO 2016</p><p>Partecipando anche ad un solo corso potrai partecipare al concorso PADI \"SPECIALITY <strong>DIVER OF THE QUARTER</strong>\". Scatta una fotografia durante i nostri <strong>corsi</strong>, inviala a PADI e se verrà votata, vincerai 100€ da spendere in prodotti PADI o <strong>corsi PADI</strong>.</p><p>Per maggiori informazioni e per le iscrizioni:<br>\nSTEFANO<br>\n333.1321563 - <a rel=\"nofollow\" href=\"mailto:stefano@laquiladimare.it\">stefano@laquiladimare.it</a></p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.40228",
+        "42.35686"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Solennità di San Massimo d'Aveia",
+      "dateFrom": "2016-06-10T16:00:00.000Z",
+      "dateTo": "2016-06-10T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Chiesa di Santa Maria del Suffragio",
+        "street": "Piazza del Duomo 15",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "719543_6"
+      },
+      "last_update": {
+        "virgilio": 1465661241955
+      },
+      "contact": {
+        "phone": "086223165",
+        "website": "http://www.diocesilaquila.it"
+      },
+      "price": {
+        "prc_info": "Ingresso Libero"
+      },
+      "ph-primary": null,
+      "desc": "\n\t\t\t\t\t<span class=\"ossbi17\">Festa del patrono della Città e della Arcidiocesi dell'Aquila</span>\n\t\t\t\t\t<p class=\"osr17\">\n\t\t\t\t\t\tLa manifestazione prevede le celebrazioni religiose e una processione con l'effige del Santo Patrono.\t\t\t\t\t\t</p>\n\t\t\t\t\t"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.39813",
+        "42.34921"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d1e5931735_6",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Aq Music Festival BAND Contest - 2° TAPPA",
+      "dateFrom": "2016-06-09T20:00:00.000Z",
+      "dateTo": "2016-06-09T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Asilo Occupato",
+        "city": "L'aquila",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "909989_102"
+      },
+      "last_update": {
+        "virgilio": 1465661243664
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1555265678111787/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/t31.0-8/s720x720/13308452_961699133944505_3657599866327222163_o.jpg",
+      "desc": "<h2 class=\"auto_title\">Black Monday e Jamrock Records presentano la SECONDA <strong>TAPPA dell'</strong>#AqMusicFestival BAND <strong>CONTEST</strong>!</h2><p>@ <strong>Asilo Occupato</strong> <strong>L'Aquila</strong></p><p>FROM 22.00 - LIVE SHOWCASE</p><p>Back To Dust VS In Vein</p><p>After <strong>Contest</strong></p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>Noce Moscardi LIVE</p><p><br>\n\\m/ STAY ROCK \\m/</p><p><br>\nIngresso gratuito<br>\n______________________________________________</p><p>Thanks to NewsTown - <strong>Musicaviva Strumenti Musicali </strong>- Radio <strong>L'Aquila</strong> 1 e all' <strong>Asilo Occupato</strong> <strong>L'Aquila</strong> per l'ospitalità.</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.4004432",
+        "42.3553405"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d1e5931735_6",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Compleanno Viviamolaq",
+      "dateFrom": "2016-06-09T18:00:00.000Z",
+      "dateTo": "2016-06-10T00:00:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Garibaldi",
+        "street": "Via Giuseppe Garibaldi 41",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "914317_102"
+      },
+      "last_update": {
+        "virgilio": 1465661254683
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1721004938155737/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13346620_1039353499434674_2232630231016860965_n.jpg?oh=bc6c7303dc04894a14880f60c3fd9778&oe=580B33AA",
+      "desc": "<p><strong>VIVIAMOLaq vi aspetta Giovedì 9 Giugno per festeggiare il suo quarto compleanno</strong>, accompagnati dalla musica dei Viva La Vida Acoustic Project, presso <strong>Garibaldi</strong>.P.zza Chiarino.</p><p>Per chi vorrà mangiare saranno disponibili 3 diversi menù:<br>\n1- Combo panino 5 € ( baguette + calice di vino o birra lager)<br>\n2- Combo vegetariana 9 € ( scamora al forno con porcini + calice di vino o birra )<br>\n3- Combo Angus 17,50 € ( tagliata di black angus + contorno verdure grigliate/patate + calice di vino o birra)<br>\n-<br>\nVi aspettiamo Giovedì 9 Giugno, non mancate! ;)</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.39935",
+        "42.35344"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4d4b7104d754a06370d81259",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Beach 4 Summer 2016 - 12° Edizione - Torneo di pallavolo misto 4vs4",
+      "dateFrom": "2016-06-10T14:00:00.000Z",
+      "dateTo": "2016-06-10T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Cese di Preturo",
+        "street": "Via Cese 1",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "751237_102"
+      },
+      "last_update": {
+        "virgilio": 1465661266278
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/179439032440530/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/11898712_945901352125707_7853147423104012136_n.png?oh=1b1e52818705de91cf2e745304f57782&oe=57D98356",
+      "desc": "<p>★ <strong>BEACH 4 SUMMER 2016 </strong>- 12° <strong>EDIZIONE </strong>★</p><p>TORNA IL <strong>TORNEO AMATORIALE MISTO 4 CONTRO 4 </strong><br>\nDI <strong>PALLAVOLO</strong><br>\n▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂</p><p>10 | 11 | 12 GIUGNO 2016<br>\n▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂</p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>MODULO ISCRIZIONE E REGOLAMENTO:<br>\n<a href=\"http://beach4summer.jimdo.com/\" rel=\"nofollow\" target=\"_blank\"><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>http</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>://</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>beach4summer.jimdo.com</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>/</span></a><br>\n▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂</p><p>NUMEROSI PREMI CONSULTABILI SUL SITO E <br>\nIN REGALO BIGLIETTI PER IL WORLD LEAGUE VOLLEY 2016<br>\n▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂</p><p>INOLTRE CI SARANNO EVENTI DI MUSICA LIVE, BILIARDINO, FRECCETTE E MOLTO ALTRO ANCORA<br>\n▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂</p><p>Info, regolamento e iscrizioni:<br>\nDaniele 347 767 8563 <br>\nFrancesco 349 168 0474 <br>\nSimone 340 141 2290 <br>\nCristian 339 239 0584 <br>\n<br>\n<a rel=\"nofollow\" href=\"mailto:info.beach4summer@gmail.com\">info.beach4summer@gmail.com</a> <br>\nwww.<strong>beach4summer</strong>.jimdo.com</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.29306",
+        "42.37694"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4d4b7104d754a06370d81259",
+        "4d4b7105d754a06373d81259",
+        "4bf58dd8d48988d181941735"
+      ],
+      "microCategories": [],
+      "title": "Rosencrantz E Guildenstern Sono Morti",
+      "dateFrom": "2016-06-10T19:00:00.000Z",
+      "dateTo": "2016-06-10T20:30:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Mu.Sp.A.C. museo sperimentale Arte Contemporanea",
+        "city": "L'aquila",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "829467_102"
+      },
+      "last_update": {
+        "virgilio": 1465661274432
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/110102052741594/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/t31.0-8/s720x720/13227625_1033991820014634_7489919116511792964_o.jpg",
+      "desc": "<p>“<strong>ROSENCRANTZ E GUILDENSTERN SONO MORTI</strong>”<br>\ndi: Tom Stoppard<br>\ncon: Luca Serani, Matteo Di Genova, Giuseppe Tomei<br>\nregia: Simona D’Angeli<br>\nburattini e costumi: Mara Gentile<br>\nmusiche dal vivo: Giovanni D’Eramo,<br>\nluci e video-proiezioni: Simone Angelozzi in collaborazione con l'Associazione Culturale “Est est”<br>\nscene: Michela D’Andrea<br>\ntraduzione e adattamento di Luca Serani e Associazione Culturale \"Ricordo\".</p><p><strong>Rosencrantz e Guildenstern sono personaggi secondari dell'Amleto che vengono elevati al rango di protagonisti di un dramma che entra e esce dall'opera di Shakespeare</strong>, costituendone una sorta di vicenda parallela. I due, servi inetti del Potere, chiamati a corte per interrogare il principe e scoprire le ragioni del suo comportamento, diventano gli ingranaggi tanto inconsapevoli quanto necessari affinché il destino della storia e dei suoi personaggi arrivi ineluttabilmente a compiersi. Fra momenti comicamente drammatici e drammaticamente comici, un nuovo adattamento che sperimenta musiche scene e interazione fra personaggi di carne e non...</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.3615027",
+        "42.3670141"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4d4b7105d754a06373d81259bis",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "2° Torneo Di Biliardino",
+      "dateFrom": "2016-06-11T13:00:00.000Z",
+      "dateTo": "2016-06-11T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Cese di Preturo",
+        "street": "Via Cese 1",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "757903_102"
+      },
+      "last_update": {
+        "virgilio": 1465661285535
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/265897367086961/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/s720x720/13001035_963729693676206_1021221448750626931_n.jpg?oh=b7937a028c7d709dcd30e9d009513268&oe=57B56762",
+      "desc": "<p>2° <strong>TORNEO DI BILIARDINO</strong></p><p>Torna con la seconda edizione</p><p>11 | 06 | 2016</p><p>1° premio -&gt; CENA x2 + COPPA</p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>10 € a squadra</p><p>Condividete e vi aspettiamo</p><p>Info:<br>\nSimone 340 14 12 290</p><p>Presso Campi sportivi S.Anna <br>\n<strong>Cese di Preturo</strong> AQ</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.29306",
+        "42.37694"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d1e5931735_6",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Asylum Tremens - extreme music night - Boycott Mankind _Hecate_ Upstream",
+      "dateFrom": "2016-06-11T20:00:00.000Z",
+      "dateTo": "2016-06-11T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Asilo Occupato",
+        "city": "L'aquila",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "hecate_-upstream_832581_102"
+      },
+      "last_update": {
+        "virgilio": 1465661296270
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/2015981035293121/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/t31.0-8/s720x720/13254804_1059379077469751_746442546281584057_o.jpg",
+      "desc": "<p>SABATO 11 GIUGNO<br>\n<br>\n<strong>Asilo Occupato</strong> presenta:<br>\n<br>\n<strong>ASYLUM TREMENS</strong><br>\n<strong>extreme music night</strong></p><p>Ore 22.00<br>\nLive show with:</p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>* <strong>UPSTREAM </strong>(post grunge - <strong>L'Aquila</strong>)<br>\n<a href=\"https://www.facebook.com/Upstream-1390054614587729/?fref=ts\" rel=\"nofollow\" target=\"_blank\"><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>https</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>://</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>www.facebook.com</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>/Upstream-1390054614587729/</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>fref=ts</span></a></p><p>*<strong>BOYCOTT MANKIND </strong>(Post Thrash - <strong>L'Aquila</strong>)<br>\n<a href=\"https://www.facebook.com/boycottmankind/?fref=ts\" rel=\"nofollow\" target=\"_blank\"><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>https</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>://</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>www.facebook.com</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>/boycottmankind/</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>fref=ts</span></a></p><p>* <strong>HECATE </strong>(Death Metal/Grindcore - Latina)<br>\n<a href=\"https://www.facebook.com/hecateband/?fref=ts\" rel=\"nofollow\" target=\"_blank\"><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>https</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>://</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>www.facebook.com</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>/hecateband/</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>fref=ts</span></a></p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.4004432",
+        "42.3553405"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d11a941735",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "★ Summer Break Party ★ Il party ufficiale dell'estate 2016",
+      "dateFrom": "2016-06-11T20:00:00.000Z",
+      "dateTo": "2016-06-11T21:59:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Cese di Preturo",
+        "street": "Via Cese 1",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "873189_102"
+      },
+      "last_update": {
+        "virgilio": 1465661312615
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1002405629835945/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13315510_983852754997233_217469583082390083_n.jpg?oh=873335cee64952239ae223779f76d348&oe=57CF638B",
+      "desc": "<p>★ <strong>Summer Break Party </strong>★</p><p>11 | 06 | 2016 from 22.00</p><p>INGRESSO GRATUITO</p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>Arriva il <strong>party ufficiale dell'estate </strong><br>\nGadget e divertimento sotto le stelle</p><p>MAIN SET:<br>\nCAROSONE DJ<br>\nB2B<br>\nSPAGNOLI RMX</p><p>ARE YOU READY?</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.29306",
+        "42.37694"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4bf58dd8d48988d1e5931735_6",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Laudato SII - VI Rassegna di Musica Sacra",
+      "dateFrom": "2016-06-11T18:00:00.000Z",
+      "dateTo": "2016-06-11T19:00:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "L'Aquila",
+        "city": "L'aquila",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "895233_102"
+      },
+      "last_update": {
+        "virgilio": 1465661322854
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/759386777497220/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/t31.0-8/s720x720/13340111_10154359297532323_4365878152115002391_o.jpg",
+      "desc": "<p>“<strong>LAUDATO SII</strong>” - VI <strong>Rassegna di Musica Sacra</strong></p><p>In occasione dei festeggiamenti di S. Antonio e S. Pio X sabato 11 giugno 2016 alle ore 20 torna la <strong>Rassegna di Musica Sacra LAUDATO SII che anche quest’anno si terrà presso la Chiesa S</strong>. Pio X (Torrione) dell’Aquila. <br>\nLa manifestazione promossa dal Comitato per i Festeggiamenti e dal parroco P. Claudiu Hazaparu con il coordinamento artistico del M° Antonio Pro, giunge quest’anno alla VI edizione consecutiva ed è organizzata dall’Associazione <strong>Musicale Le Cantrici di Euterpe che dirette da Maria Antonietta Cignitti</strong>, dopo aver animato la celebrazione liturgica delle ore 19, accoglierà con un brano i tre cori protagonisti della serata: il Coro “MADONNA DELLE GRAZIE” Bianca D’ Amore, direttrice il Coro di TORNIMPARTE Mario Santucci, direttore la Schola Cantorum S. SISTO Carmine Colangeli, direttore.<br>\nGli ensemble eseguiranno brani tratti dal repertorio sacro di tutti i tempi, fra gli autori in programma si potranno ascoltare: M. Frisina, G. P. da Palestrina, T. L. da Victoria, W.A.Mozart<br>\nwww.cantricidieuterpe.it</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.3667",
+        "42.3667"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4d4b7104d754a06370d81259",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Giochi Senza Frontiere",
+      "dateFrom": "2016-06-10T06:00:00.000Z",
+      "dateTo": "2016-06-12T18:00:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Campo Di Atletica, Piazza D'armi, L'aquila",
+        "street": "Via Beato Cesidio",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "792527_102"
+      },
+      "last_update": {
+        "virgilio": 1465661339478
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/553552758159635/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13245444_271225606553414_5362321172071116722_n.jpg?oh=5f1cd496b35bc9d45321bd5848fea342&oe=57A492B8",
+      "desc": "<p><strong>GIOCHI SENZA FRONTIERE</strong></p><p>PIAZZA D'ARMI <strong>L'AQUILA</strong> - CAMPO DI ATLETICA</p><p>10-11-12 GIUGNO 2016</p><p>PROGRAMMA:</p><p>VENERDI’ 10 GIUGNO 2016 dalle ore 10 @PIAZZA D’ARMI</p><p><strong>GIOCHI SENZA FRONTIERE OPEN DAY</strong></p><p><br>\nSABATO 11 GIUGNO 2016 dalle ore 10 @PIAZZA D’ARMI</p><p>QUALIFICAZIONI (MIN.20 SQUADRE)</p><p>4 GIRONI : <br>\nGIRONE A – PASSANO ALLE SEMIFINALI LE MIGLIORI 3</p><p>GIRONE B – PASSANO ALLE SEMIFINALI LE MIGLIORI 3</p><p>GIRONE C – PASSANO ALLE SEMIFINALI LE MIGLIORI 3</p><p>GIRONE D - PASSANO ALLE SEMIFINALI LE MIGLIORI 3</p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>ore 22.00 SUPERPARTY</p><p><br>\nDOMENICA 12 GIUGNO 2016 dalle ore 10 PIAZZA D’ARMI</p><p>SEMIFINALI</p><p>GIRONE X - PASSANO ALLA FINALE LE MIGLIORI 3</p><p>GIRONE Y – PASSANO ALLA FINALE LE MIGLIORI 3</p><p>FINALE <br>\nGIRONE A 6</p><p>ore 20.30 PREMIAZIONE</p><p><br>\nI <strong>GIOCHI UFFICIALI</strong>:</p><p>1- WATER SOCCER<br>\n2-GLADIATOR<br>\n3-BOWLING UMANO<br>\n4-SPIDERMAN<br>\n5-BUNGEE RUN<br>\n6- BOOTCAMP CHALLENGE<br>\n7- KAPOW<br>\n8- PIRATE ADRENALINE<br>\n9- GIOCO TOP SECRET<br>\n10-GIOCO TOP SECRET</p><p>REGOLAMENTO ISCRIZIONI<br>\n1)\tISCRIZIONE<br>\nPer iscriversi al torneo di “<strong>Giochi Senza Frontiere</strong>” basta accettare il presente regolamento e compilare la scheda di iscrizione in ogni sua parte e inviarla a <a rel=\"nofollow\" href=\"mailto:info@laquilayoung.org\">info@laquilayoung.org</a> oppure consegnarla direttamente a mano ai gruppi organizzativi presso il campo di atletica di Piazza D’Armi.<br>\nL'iscrizione ai <strong>giochi del torneo </strong>“<strong>Giochi Senza Frontiere</strong>” è di 200€ a squadra<br>\nA tutti i giocatori-partecipanti iscritti sarà offerta la maglietta della manifestazione e una comoda shopper. È possibile iscriversi sia come squadra che come singolo. La scadenza delle iscrizioni è riportata come da calendario al punto 9.</p><p>2)\tSQUADRE <br>\nLe squadre saranno composte da un numero di giocatori variabili tra 10-20 elementi tra uomini e donne, italiani/e e stranieri/e. Nel caso in cui qualcuno fosse interessato a partecipare ma non riuscisse a formare una squadra, saranno accettate sia iscrizioni singole che di gruppo. I giocatori dovranno avere un'età tra i 15 ed i 35 anni.È possibile avere massimo 2 giocatori fuori quota (più grandi o più piccoli)che daranno accesso ad un bonus. Le squadre dovranno essere composte da almeno 7 giocatrici.</p><p>3)\tORGANIZZAZIONE DELLE SQUADRE <br>\nOgni squadra dovrà nominare un capitano che sarà anche il responsabile e il referente della squadra stessa. Le squadre avranno il nome scelto dalla squadra partecipante al torneo e saranno indicate da colori differenti. Tutti i partecipanti dovranno munirsi di idonee protezioni che verranno richieste prossimamente), nonché di abbigliamento adeguato . I partecipanti ad ogni singolo gioco verranno estratti a sorte prima dell'inizio del torneo; fra gli estratti, i ruoli verranno scelti dal capitano della squadra. Ogni giocatore deve partecipare ad almeno 1 gioco.</p><p><br>\ninfo iscrizioni squadre 3317383503<br>\n<a rel=\"nofollow\" href=\"mailto:INFO@LAQUILAYOUNG.ORG\">INFO@LAQUILAYOUNG.ORG</a></p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.3866",
+        "42.35956"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "4d4b7104d754a06370d81259",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Torneo Touch - 1° Memorial Piergiorgio Desiati",
+      "dateFrom": "2016-06-11T08:30:00.000Z",
+      "dateTo": "2016-06-12T01:00:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Impianti Sportivi Centi Colella",
+        "street": "Ss17",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "774623_102"
+      },
+      "last_update": {
+        "virgilio": 1465661351018
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/1747551882190037/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13267724_354518901338680_5323670015336447657_n.jpg?oh=d13dd1e990453a3e8e62ea7c55c50237&oe=57CA9C96",
+      "desc": "<p>Le Vecchie Fiamme Old Rugby a.s.d. hanno il piacere di invitarvi al <strong>torneo Touch 1</strong>° <strong>Memorial Piergiorgio Desiati</strong>, valido per il ranking B di Italia <strong>Touch e penultima tappa del campionato Italiano di Touch</strong>.<br>\nChiunque (donne, uomini, ex rugbisti, neo rugbisti, non rugbisti) può formare una squadra e iscriversi. Si gioca con 6 giocatori in campo (TRE UOMINI E TRE DONNE) fino ad un massimo di 16 in rosa, ma ad ogni partita solo 14 posso scendere in campo. A questo link il regolamento completo del <strong>Touch </strong><a href=\"http://www.italiatouch.it/wp-content/uploads/2014/06/FIT-Regolamento-di-Gioco-4a-Edizione-2013-Italiano-Rev2-Master.pdf\" rel=\"nofollow\" target=\"_blank\"><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>http</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>://</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>www.italiatouch.it</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>/wp-content/uploads/2014/06/FIT-Regolamento-di-Gioco-4a-Edizione-2013-Italiano-Rev2-Master.pdf</span></a> e qui quello del campionato in corso <a href=\"http://www.italiatouch.it/wp-content/uploads/2012/05/ITALIATOUCH-Regolamento-Campionato-2016-2018-2.pdf\" rel=\"nofollow\" target=\"_blank\"><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>http</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>://</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>www.italiatouch.it</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>/wp-content/uploads/2012/05/ITALIATOUCH-Regolamento-Campionato-2016-2018-2.pdf</span></a> (all'ultima pagina troverete i bonus assegnati a seconda di quante donne si hanno in squadra)<br>\nNella struttura saranno a disposizione tre campi regolamentari per il <strong>Touch</strong>, (1 campo da rugby 100x70 e 1 campo Under 14 da 70x50) quindi si potranno giocare tre partite contemporaneamente.<br>\nIl fondo dei campi è sintetico di quarta generazione con erba fitta e alta 6 cm, si consiglia scarpa da ginnastica o, meglio, tacchetto di gomma, il tacchetto di ferro è VIETATO.<br>\nC'è una tribuna, in parte coperta, per 500 persone, parcheggio ampio e gratuito a ridosso dell'impianto, 4 spogliatoi, uno esclusivo per le donne. L'intero impianto ha torri d'illuminazione.<br>\nE' presente la Club House che sarà aperta per tutta la giornata.</p><p>Per raggiungere l'impianto: Autostrada A24, uscita <strong>L'Aquila</strong> Ovest, prendere direzione Rieti e dopo solo 1 Km, sulla SX, troverete gli impianti sportivi.<br>\n<a href=\"https://www.google.it/maps/place/Polisportiva+L'Aquila+Rugby+a.s.d.,+67100+L'Aquila/@42.3587873,13.3562827,17z/data=!3m1!4b1!4m5!3m4!1s0x132fcd7d8ba7afc5:0x2cedbb23cc47033c!8m2!3d42.3583813!4d13.3583678\" rel=\"nofollow\" target=\"_blank\"><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>https</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>://</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>www.google.it</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>/maps/place/Polisportiva+L'Aquila+Rugby+a.s.d.,+67100+L'Aquila/@42.3587873,13.3562827,17z/data=!3m1!4b1!4m5!3m4!1s0x132fcd7d8ba7afc5:0x2cedbb23cc47033c!8m2!3d42.3583813!4d13.3583678</span></a><br>\nPer chi volesse rimanere a dormire abbiamo alberghi e B&amp;B convenzionati.</p><p>PER GLI APPASSIONATI<br>\nORE 13:00 FOOD &amp; BEER<br>\nORE 19:00 BEER &amp; FOOD &amp; MUSIC</p><p><ins class=\"adsbygoogle\" style=\"display: block; height: 90px;\" data-ad-client=\"ca-pub-6563385292851505\" data-ad-slot=\"6992485074\" data-ad-format=\"auto\" data-adsbygoogle-status=\"done\"><ins id=\"aswift_2_expand\" style=\"display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><ins id=\"aswift_2_anchor\" style=\"display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1115px;background-color:transparent\"><iframe width=\"1115\" height=\"90\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" onload=\"var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}\" id=\"aswift_2\" name=\"aswift_2\" style=\"left: 0px; position: absolute; top: 0px; height: 450px; width: 718px;\"></iframe></ins></ins></ins></p><p>PROGRAMMA UFFICIALE:<br>\nORE 10:30 CHECK IN SQUADRE<br>\nORE 10:45 BRIEFING ARBITRI<br>\nORE 11:00 INIZIO <strong>TORNEO</strong><br>\nORE 13:30 PAUSA PRANZO<br>\nORE 14:30 FASI FINALI<br>\nORE 17:00 FINE <strong>TORNEO</strong><br>\nORE 18:00 PREMIAZIONE &amp; III TEMPO<br>\nORE 19:00 BEER &amp; FOOD &amp; MUSIC</p><p>Arbitri<br>\nOgni squadra dovrà fornire almeno 1 arbitro, comunque sarà effettuato un meeting con gli arbitri ufficiali il giorno stesso per avere un metodo di arbitraggio più o meno equilibrato.</p><p>MODALITA' D'ISCRIZIONE: caparra di 100€ con bonifico a Vecchie Fiamme Old rugby a.s.d. codice IBAN IT60U0335967684510700172558 specificando nella causale \"NOME DELLA SQUADRA, NOME DEL <strong>TORNEO</strong>\" .<br>\nQui trovate il modulo d'iscrizione da stampare e consegnare il giorno del <strong>torneo</strong>: <a href=\"http://www9.zippyshare.com/v/pynSspzi/file.html\" rel=\"nofollow\" target=\"_blank\"><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>http</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>://</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>www9.zippyshare.com</span><wbr><span class=\"l-p\" style=\"display: inline-block;\"></span><span>/v/pynSspzi/file.html</span></a><br>\nConferma dell'iscrizione e copia bonifico a: <a rel=\"nofollow\" href=\"mailto:info@vecchiefiamme.com\">info@vecchiefiamme.com</a><br>\nLa quota del terzo tempo verrà versata direttamente sul posto previa comunicazione anticipata del numero approssimativo dei partecipanti.<br>\n- Iscrizione: 15€ a giocatore, la quota comprende: medico in campo, utilizzo degli spogliatoi, pranzo al sacco, acqua e frutta.<br>\n- 3° Tempo: 10€ a giocatore<br>\nIl termine ultimo per le iscrizioni è domenica 5 giugno 2016</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.37377",
+        "42.34743"
+      ]
+    }
+  },
+  {
+    "properties": {
+      "type": "Feature",
+      "poi-type": 2,
+      "microCategoriesId": [
+        "5267e4d8e4b0ec79466e48c5",
+        "4eb1daf44b900d56c88a4600",
+        "4d4b7105d754a06373d81259"
+      ],
+      "microCategories": [],
+      "title": "Workshop di ritratto in studio",
+      "dateFrom": "2016-06-11T08:00:00.000Z",
+      "dateTo": "2016-06-12T16:00:59.000Z"
+    },
+    "details": {
+      "address": {
+        "title": "Studio Fotografico Santarelli",
+        "street": "Viale Corrado lv",
+        "city": "L'AQUILA",
+        "zip": "67100",
+        "country": "AQ",
+        "state": "Italia"
+      },
+      "other_id": {
+        "virgilio": "788001_102"
+      },
+      "last_update": {
+        "virgilio": 1465661359187
+      },
+      "contact": {
+        "website": "https://www.facebook.com/events/575933422579992/"
+      },
+      "ph-primary": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/13102889_1144409815593641_8332377825783177012_n.jpg?oh=88c884aed082ce5930c3fc73e949e996&oe=57A3CC28",
+      "desc": "<p>Lo <strong>studio fotograﬁco Santarelli in collaborazione con Serena Vittorini e Melissa Pallini organizza </strong>:<br>\n<br>\n<strong>Workshop di ritratto in studio</strong>.<br>\n<br>\nQUANDO : Sabato 11 giugno e Domenica 12 giugno. Sabato 11 giugno : h 10.00-18.00 (Modulo 1) Domenica 12 giugno : h 10.00-18.00 (Modulo 2)</p><h2 class=\"auto_title\">DOVE : <strong>Studio fotograﬁco Santarelli</strong>. Viale Corrado IV, L’aquila.</h2><p>COSTI :</p><p>- € 150 per entrambe le giornate.</p><h3 class=\"auto_title\">La quota non comprende : spostamenti, pranzo.</h3><p>NUMERO DI POSTI LIMITATO.</p><p>INFO E PRENOTAZIONI : 3285979670 info@<strong>studiofotograﬁcosantarelli</strong>.it</p><p>PROGRAMMA :</p><p>Modulo 1 (Sabato 11 giugno h 10.00-18.00)</p><p>Lezione teorica (h 10.00-13.00) : <br>\n- Introduzione alla fotograﬁa di <strong>ritratto</strong>. - Progettazione di una seduta di <strong>ritratto</strong>. - Gestione della luce. - Utilizzo dei vari schemi di illuminazione. <br>\nPausa pranzo (h 13.00-14.00) <br>\nLezione pratica (h 14.00-18.00) : <br>\n- Shooting con la presenza di due modelli (maschile e femminile). Durante l’allestimento e l’uso dei vari set i partecipanti verranno guidati nell’approccio con i modelli e nella gestione pratica delle luci.</p><p>Modulo 2 (Domenica 12 giugno h 10.00-18.00)</p><p>Lezione teorica (h 10.00-13.00) : <br>\n- Revisione degli scatti realizzati. - Analisi della composizione, dei tagli e delle pose. - Introduzione alla post-produzione di base del <strong>ritratto</strong>. <br>\nPausa pranzo (h 13.00-14.00) <br>\nLezione pratica (h 14.00-18.00) : <br>\n- Principi di base della post-produzione (Camera raw e Photoshop) - Conoscenza degli strumenti del programma. - Imparare ad usare livelli e maschere. - Ritocco della pelle (con e senza separazione delle frequenze). - Color correction. - Conversione in bianco e nero ( metodi per ottimizzare la resa del b/n)</p><p>Requisito fondamentale per poter partecipare è una conoscenza di base del mezzo fotograﬁco (diaframmi , tempi , ISO) e dei programmi di post-produzione (Camera raw e Photoshop). Ogni partecipante dovrà inoltre essere munito di un computer portatile per potersi esercitare nella post-produzione dei ritratti nella seconda giornata di lavoro.</p><p>Necessaria la prenotazione. Per info : 3285979670 – info@<strong>studiofotograﬁcosantarelli</strong>.it</p>"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.38416",
+        "42.35802"
+      ]
+    }
+  }
+]}

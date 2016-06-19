@@ -1,0 +1,15 @@
+{
+  "name": "node-api",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "file-stream-rotator": "0.0.6",
+    "jsonwebtoken": "^5.7.0",
+    "mkpath": "^1.0.0",
+    "mongoose": "^4.4.6",
+    "morgan": "^1.7.0",
+    "q": "^1.4.1",
+    "request": "^2.72.0"
+  }
+}
