@@ -64,7 +64,7 @@ exports.authenticate = function()
     
      return function(req, res) 
      {
-        var users =req.body.users;
+        var users =req.body;
         console.log(users);
         User.findOne({
         'basic.nickname'    : users.username,
