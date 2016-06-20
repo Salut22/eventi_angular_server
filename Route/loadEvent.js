@@ -14,6 +14,10 @@ var EVENT_SAVE_LOG            = 'event_save_log.txt';
 var EVENT_REVIEW_SAVE_LOG     = 'EVENT_REVIEW_SAVE_LOG.txt';
 var EVENT_DETAIL_SAVE_LOG     = 'EVENT_DETAIL_SAVE_LOG.txt';
 var EVENTS_WITHOUT_ADDRESS   = 'events_without_address.txt';
+var risposta={};
+risposta.titoloPresente=[];
+risposta.idPresente=[];
+risposta.salvati=[];
 
 exports.loadEvent = function()
 {
@@ -122,14 +126,15 @@ CHECK FOR TWINS BY NAME
                      isTwinPromises.push( 
                          Event.findOne({$and:[
                                             {'properties.title'     : event.properties.title},
-//                                            {'properties.dateFrom'  : event.properties.dateFrom},
-//                                            {'properties.dateTo'    : event.properties.dateTo}
+                                            {'properties.dateFrom'  : event.properties.dateFrom},
+                                            {'properties.dateTo'    : event.properties.dateTo}
                                            ]
                                      })
                        .then(function(doc)
                              {
                               if(doc) {
-                                       console.log(doc.properties.title+' already present');
+                                       
+                                       risposta.titoloPresente.push(doc.properties.title);
                                        return true;
                                       }
                               else    {return false;}
@@ -191,7 +196,7 @@ CHECK FOR TWINS BY OTHER_ID
                                .then(function(doc)
                                      {
                                       if(doc) {
-                                               console.log(JSON.stringify(doc.details.other_id)+' already present (other_id)');
+                                            risposta.idPresente.push(JSON.stringify(doc.details.other_id));
                                                return true;
                                               }
                                       else    {return false;}
@@ -225,7 +230,7 @@ SAVE EVENTS TO THE DB
         .then(
             function(isTwinList)
              {
-              console.log('now save '+all_events.length+' events');
+              console.log('cerco di salvare '+all_events.length+' eventi');
               var event_save_promises = [];
               var contatore=0;
               for(p in all_events)
@@ -245,6 +250,8 @@ SAVE EVENTS TO THE DB
                                event_save_promises.push(event.save()           
                                             .then(function(doc)
                                                 {
+                                                  risposta.savati.titolo=doc.properties.title;
+                                                  risposta.savati.id=doc._id;
                                                  fs.appendFile(city+EVENT_SAVE_LOG,  
                                                                doc._id+'  '+doc.properties.title+'\n\n');
                                                   return doc;
@@ -257,8 +264,8 @@ SAVE EVENTS TO THE DB
                                                   })
                                        );
                }
-              console.log (contatore +" eventi salvati con successo");
-              res.status(200).send({ msg: contatore+' eventi salvati con successo' , result: 'success' });
+              risposta.salvati=contatore +" eventi salvati con successo";
+              res.status(200).send({ msg: contatore+' eventi salvati con successo' , result: risposta });
              })
        .catch(function(err){console.log('save pois '+err);  })       
 
