@@ -39,23 +39,8 @@ exports.create=function()
         console.log(doc);
         console.log(doc._id);
         var cart=
-            {    _id:doc._id,
-                'prodotto':
-                [{
-                    'properties':
-                    {
-                      'title'   :"",
-                      'dateFrom':"",
-                      'dateTo'  :""
-                    },
-                    'details':
-                    {
-                      '_idEvento':"",
-                      'photo'   :"",
-                      'price'   :0,
-                      'quantita':0
-                    }
-                }]  
+            {    _id:doc._id
+               
             };
         var newCarrello = new Carrello(cart)
         newCarrello.save()

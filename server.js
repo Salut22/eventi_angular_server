@@ -92,7 +92,7 @@ app.post  ('/getEvent',            event.getNearEvents());
 app.get   ('/getEvent/:event_id',  event.getEventById());
 app.get   ('/getCart/:cart_id',    cart.getCartById());
 app.post  ('/addEvent',            cart.addEvent());
-
+app.post  ('/removeEvent',         cart.deleteEvent());
 //=============================================================================
 // REGISTER OUR ROUTES -------------------------------
 //=============================================================================
