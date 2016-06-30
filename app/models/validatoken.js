@@ -26,8 +26,13 @@ exports.validatoken = function()
         try{url=req.url.split('?');}
         catch(e){};
         console.log(url[0]);
+        if (matching.match(/\/getPreferiti\/[a-z0-9]{24}/)!=null)
+        {
+            trovato = "/getPreferiti/:preferito_id";
+            console.log("trovato"+trovato);
+        }
         url=url[0].trim();
-        if (url!='/addEvent' && url!='/removeEvent'/*||url[0]!='/addEvent'*/)
+        if (url!='/addEvent' && url!='/removeEvent' && url[0]!='/getPreferiti/:preferito_id')
         {
                   console.log('diverso da addEvent');
                   next('route');
