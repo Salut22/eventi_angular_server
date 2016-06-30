@@ -1,8 +1,10 @@
+
+
 exports.validatoken = function()
 {
     return function(req, res, next)
     {
-        var idToken;                      //token decoded id 
+                             //token decoded id 
         var maxCounter          =10;     //max number of counter
         var maxDifferentTime    =10000; //max different of timeReqest and time1log
         var maxDifferentLog     =10000;//max different of timeRequest and timeLastRequest
@@ -12,13 +14,34 @@ exports.validatoken = function()
         var differentTime;
         var time1log;
         var differentLog;
+        var url=[];
+        
    
-            if (req.url==='/users/authenticate'||req.url==='/api/users/')
-            {
-                next('route');
-                return;
-            }
+       // console.log("sono in ValidaToken"+JSON.stringify(req.body));
+//            if (req.url==='/users/authenticate'||req.url==='/api/users/')
+//            {
+//                next('route');
+//                return;
+//            }
+        try{url=req.url.split('?');}
+        catch(e){};
+        console.log(url[0]);
+        url=url[0].trim();
+        if (url!='/addEvent' && url!='/removeEvent'/*||url[0]!='/addEvent'*/)
+        {
+                  console.log('diverso da addEvent');
+                  next('route');
+                  return;
+        }
+            
+//            if (req.url=='/addEvent')
+//            {
+//                console.log('diverso da addEvent');
+//                next('route');
+//                return;
+//            }
             var token = req.body.token || req.query.token || req.headers['x-access-token'];
+           // console.log(token);
             // decode token
             if (token) 
             {
@@ -31,9 +54,11 @@ exports.validatoken = function()
                 else 
                 {
                     // if everything is good, save to request for use in other routes
-                    req.decoded = decoded; 
-                    idToken=decoded._doc._id;
-
+                    req.decoded = decoded;
+                    //console.log(req.decoded);
+                    //idToken=decoded._doc._id;
+                    idToken=decoded._id;
+                   // console.log(idToken);
                     User.findById
                     ({
                         _id : idToken
@@ -90,5 +115,9 @@ exports.validatoken = function()
     
         });
      }
+    else
+    {
+        console.log("porco latro");
+    }
   }
 }

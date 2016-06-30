@@ -15,6 +15,7 @@ var FileStreamRotator = require('file-stream-rotator');
     jwt               = require('jsonwebtoken');
     config            = require('./config');
     q                 = require('q');
+   idToken="";
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -78,7 +79,7 @@ validate    = require('./app/models/validatoken');
 router.get('/', function(req, res) {
     res.json({ message: 'hooray! welcome to our api!' });   
 });
-//app.use(validate.validatoken());
+app.use(validate.validatoken());
 
 app.get   ('/users/:user_id',      users.getUserById() );
 app.put   ('/users/:user_id',      users.updates()     );

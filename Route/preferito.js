@@ -20,9 +20,11 @@ var Preferito       = require('../app/models/preferito');
  exports.addEvent = function()   
     {
         return function(req, res){
-        console.log(JSON.stringify(req.body));
-        var preferito=req.body.preferiti[0];  
-        Preferito.findById(req.body.userId)
+        console.log("poosdkodsf"+JSON.stringify(req.body));
+        var preferito=req.body.preferiti[0];
+        console.log(idToken);
+ //       Preferito.findById(req.body.userId)
+        Preferito.findById(idToken)
         .then(function(docs)
            {
             if (docs)
@@ -75,10 +77,12 @@ var Preferito       = require('../app/models/preferito');
     return function(req, res){
         var preferito=req.body;
         console.log(req.body);
-        var idPreferito   = preferito.userId;
+//        var idPreferito   = preferito.userId;
         var idEvent  = preferito.eventId;
+        console.log(idEvent);
         var trovato  = false;
-        Preferito.findById(idPreferito)
+//        Preferito.findById(idPreferito)
+        Preferito.findById(idToken)
         .then(function(docs)
            {
               for (i in docs.prodotto)
