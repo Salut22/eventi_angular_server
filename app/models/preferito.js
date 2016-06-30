@@ -8,7 +8,7 @@ var ObjectId     = Schema.ObjectId;
 
 
 // create a schema
-var carrelloSchema = new Schema({
+var preferitoSchema = new Schema({
     _id            : {type: Schema.ObjectId, ref: 'User', unique:true},
 prodotto:   [{
       properties:
@@ -49,7 +49,7 @@ prodotto:   [{
 
 // the schema is useless so far
 // we need to create a model using it
-var Carrello = mongoose.model('Carrello', carrelloSchema);
+var Preferito = mongoose.model('Preferito', preferitoSchema);
 
 // make this available to our users in our Node applications
-module.exports = Carrello;
+module.exports = Preferito;

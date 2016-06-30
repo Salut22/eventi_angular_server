@@ -38,19 +38,20 @@ exports.create=function()
     {
         console.log(doc);
         console.log(doc._id);
-        var cart=
+        var preferito=
             {    _id:doc._id
                
             };
-        var newCarrello = new Carrello(cart)
-        newCarrello.save()
-        .then(function(doc_carrello)
+        console.log("ziooadj"+preferito);
+        var newPreferito = new Preferito(preferito);
+        newPreferito.save()
+        .then(function(doc_preferito)
         {
-            res.status(200).send({msg:"carrello e utente salvati con successo",result:doc});
+            res.status(200).send({msg:"preferito e utente salvati con successo",result:doc});
         })
         .catch(function(err)
         {
-             res.status(403).send({ msg: "Carrello non creato", result: doc }); 
+             res.status(403).send({ msg: "Preferito non creato", result: doc }); 
         })
      
     })

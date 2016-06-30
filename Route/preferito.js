@@ -1,18 +1,18 @@
 var mongoose   = require('mongoose');
 //var Bear       = require('../app/models/bear');
-var Carrello       = require('../app/models/carrello');
+var Preferito       = require('../app/models/preferito');
 
- exports.getCartById = function()   
+ exports.getPreferitoById = function()   
     {
         return function(req, res){
         console.log(req.params);
-        Carrello.findById(req.params.cart_id)
+        Preferito.findById(req.params.preferito_id)
         .then(function(docs)
            {
-            res.status(200).send({ msg: "carrello trovato", result: docs }); 
+            res.status(200).send({ msg: "preferito trovato", result: docs }); 
           })
        .catch(function(err)
-              { console.log('Cart non presente'+err);
+              { console.log('Preferito non presente'+err);
                 res.status(400).send({ msg: "Bad Request  Error", error: err.toString() }); 
               });
     }
@@ -21,8 +21,8 @@ var Carrello       = require('../app/models/carrello');
     {
         return function(req, res){
         console.log(JSON.stringify(req.body));
-        var cart=req.body.cart[0];  
-        Carrello.findById(req.body.userId)
+        var preferito=req.body.preferiti[0];  
+        Preferito.findById(req.body.userId)
         .then(function(docs)
            {
             if (docs)
@@ -31,10 +31,10 @@ var Carrello       = require('../app/models/carrello');
                for (i in docs.prodotto)
                 {
                     console.log('**********************');
-                    if (cart.details.idEvento==docs.prodotto[i].details.idEvento)
+                    if (preferito.details.idEvento==docs.prodotto[i].details.idEvento)
                     {
                         console.log('prima '+docs.prodotto[i].details.quantita);
-                        docs.prodotto[i].details.quantita=cart.details.quantita;
+                        docs.prodotto[i].details.quantita=preferito.details.quantita;
                         console.log('dopo '+docs.prodotto[i].details.quantita);
                         trovato = true;
                     }
@@ -42,9 +42,9 @@ var Carrello       = require('../app/models/carrello');
                 console.log(trovato);
                 if (trovato == false)
                 {   
-//                    console.log(req.body.cart[0]);
+//                    console.log(req.body.preferito[0]);
                     
-                    docs.prodotto.push(cart);
+                    docs.prodotto.push(preferito);
                     console.log('if'+docs.prodotto);
                 }
                 //console.log(JSON.stringify(docs.prodotto,null,2));
@@ -60,11 +60,11 @@ var Carrello       = require('../app/models/carrello');
             }
             else 
             {
-               res.status(404).send({ msg: "Cart not found", error: "cart not found" }); 
+               res.status(404).send({ msg: "Preferito not found", error: "Preferito not found" }); 
             } 
           })
        .catch(function(err)
-              { console.log('Cart non presente'+err);
+              { console.log('Preferito non presente'+err);
                 res.status(400).send({ msg: "Bad Request################## Error", error: err.toString() }); 
               });
     }
@@ -73,12 +73,12 @@ var Carrello       = require('../app/models/carrello');
  exports.deleteEvent = function()
  {
     return function(req, res){
-        var cart=req.body;
+        var preferito=req.body;
         console.log(req.body);
-        var idCart   = cart.userId;
-        var idEvent  = cart.eventId;
+        var idPreferito   = preferito.userId;
+        var idEvent  = preferito.eventId;
         var trovato  = false;
-        Carrello.findById(idCart)
+        Preferito.findById(idPreferito)
         .then(function(docs)
            {
               for (i in docs.prodotto)
@@ -108,7 +108,7 @@ var Carrello       = require('../app/models/carrello');
                  
           })
        .catch(function(err)
-              { console.log('Cart non presente'+err);
+              { console.log('Preferito non presente'+err);
                 res.status(400).send({ msg: "Bad Request################## Error", error: err.toString() }); 
               });
         

@@ -35,7 +35,7 @@ Util         = require('./app/models/util');
 User         = require('./app/models/user');
 Subscribed   = require('./app/models/subscribed');
 Event        = require('./app/models/event');
-Carrello     = require('./app/models/carrello');
+Preferito    = require('./app/models/preferito');
 
 
 //=============================================================================
@@ -58,7 +58,7 @@ var users              = require('./Route/users');
 var loadEvent          = require('./Route/loadEvent');
 var validaAdmin        = require('./app/models/validaAdmin');
 var event              = require('./Route/events');
-var cart               = require('./Route/cart');
+var preferito          = require('./Route/preferito');
 
 
 var router = express.Router();
@@ -90,9 +90,9 @@ app.post  ('/admin/loadEvent',     loadEvent.loadEvent());
 app.post  ('/admin/validate',      validaAdmin.validaAdmin());
 app.post  ('/getEvent',            event.getNearEvents());
 app.get   ('/getEvent/:event_id',  event.getEventById());
-app.get   ('/getCart/:cart_id',    cart.getCartById());
-app.post  ('/addEvent',            cart.addEvent());
-app.post  ('/removeEvent',         cart.deleteEvent());
+app.get   ('/getPreferiti/:preferito_id',    preferito.getPreferitoById());
+app.post  ('/addEvent',            preferito.addEvent());
+app.post  ('/removeEvent',         preferito.deleteEvent());
 //=============================================================================
 // REGISTER OUR ROUTES -------------------------------
 //=============================================================================
