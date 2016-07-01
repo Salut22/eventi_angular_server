@@ -23,6 +23,9 @@ exports.loadEvent = function()
 {
  return function(req, res)
  {
+     risposta.titoloPresente=[];
+     risposta.idPresente=[];
+     risposta.salvati=[];
     console.log('loadEvent');
     var jsonPois         = req.body.jsonPois;
     var city             = req.body.city;
