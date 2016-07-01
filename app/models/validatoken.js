@@ -39,7 +39,7 @@ exports.validatoken = function()
         {
            url=url[0].trim();
         }
-        if (url!='/addEvent' && url!='/removeEvent' && url!='/getPreferiti/:preferito_id')
+        if (url!='/addEvent' && url!='/removeEvent' && url!='/getPreferiti/:preferito_id' && url!='/admin/validate')
         {
                   console.log('diverso da addEvent');
                   next('route');
@@ -71,6 +71,8 @@ exports.validatoken = function()
                     //console.log(req.decoded);
                     //idToken=decoded._doc._id;
                     idToken=decoded._id;
+                    console.log(JSON.stringify(decoded.basic.admin));
+                    admin=decoded.basic.admin;
                    // console.log(idToken);
                     User.findById
                     ({
