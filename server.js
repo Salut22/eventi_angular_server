@@ -16,6 +16,7 @@ var FileStreamRotator = require('file-stream-rotator');
     config            = require('./config');
     q                 = require('q');
    idToken="";
+   admin="";
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: false }));
