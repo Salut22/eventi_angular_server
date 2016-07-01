@@ -6,7 +6,7 @@ var Preferito       = require('../app/models/preferito');
     {
         return function(req, res){
         console.log(req.params);
-        Preferito.findById(req.params.preferito_id)
+        Preferito.findById(idToken)
         .then(function(docs)
            {
             res.status(200).send({ msg: "preferito trovato", result: docs }); 

@@ -15,7 +15,9 @@ exports.validatoken = function()
         var time1log;
         var differentLog;
         var url=[];
-        
+        var matching=req.url;
+        var token;
+        var tokenUrl;
    
        // console.log("sono in ValidaToken"+JSON.stringify(req.body));
 //            if (req.url==='/users/authenticate'||req.url==='/api/users/')
@@ -26,13 +28,18 @@ exports.validatoken = function()
         try{url=req.url.split('?');}
         catch(e){};
         console.log(url[0]);
-        if (matching.match(/\/getPreferiti\/[a-z0-9]{24}/)!=null)
+        if (matching.match(/\/getPreferiti\/[a-z0-9]/)!=null)
         {
-            trovato = "/getPreferiti/:preferito_id";
-            console.log("trovato"+trovato);
+            url = "/getPreferiti/:preferito_id";
+            tokenUrl=req.url.split("/");
+            tokenUrl=tokenUrl[2];
+            console.log("trovato"+url);
         }
-        url=url[0].trim();
-        if (url!='/addEvent' && url!='/removeEvent' && url[0]!='/getPreferiti/:preferito_id')
+        else
+        {
+           url=url[0].trim();
+        }
+        if (url!='/addEvent' && url!='/removeEvent' && url!='/getPreferiti/:preferito_id')
         {
                   console.log('diverso da addEvent');
                   next('route');
@@ -45,7 +52,8 @@ exports.validatoken = function()
 //                next('route');
 //                return;
 //            }
-            var token = req.body.token || req.query.token || req.headers['x-access-token'];
+           
+            token = tokenUrl || req.query.token || req.headers['x-access-token'];
            // console.log(token);
             // decode token
             if (token) 
