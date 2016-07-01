@@ -45,24 +45,10 @@ exports.getNearEvents  = function()
            query = { $and: [
                             {'properties.dateFrom':{ $gte: da} },
                             {'properties.dateTo'  :{ $lte: a  } },
-                            {'details.address.city': comune.toUpperCase()}
+                            {'details.address.city': comune.toLowerCase()}
                          ],
                    };
-       else if (provincia)
-           query = { $and: [
-                            {'properties.dateFrom':{ $gte: da} },
-                            {'properties.dateTo'  :{ $lte: a  } },
-                            {'details.address.country': provincia}
-                         ],
-                   };
-//       else 
-//           query = { $and: [
-//                            {'properties.dateFrom':{ $gte: da} },
-//                            {'properties.dateTo'  :{ $lte: a  } },
-//                            {'details.address.city': regione}
-//                         ],
-//                   };
-
+       
      // execute the query
      console.log(JSON.stringify(query));
      Event.find(query)
