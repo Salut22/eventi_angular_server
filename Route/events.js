@@ -49,8 +49,7 @@ exports.getNearEvents  = function()
                          ],
                    };
        
-     // execute the query
-     console.log(JSON.stringify(query));
+     console.log(JSON.stringify(query,null,2));
      Event.find(query)
         .then(function(docs)
            {
@@ -58,10 +57,10 @@ exports.getNearEvents  = function()
                       if (docs && docs.length>0)
                         {
                          var length = docs.length;
-                         res.status(200).send({ msg: length+" event Found", result: docs }); 
+                         res.status(200).send({ msg: length+" evento Trovato", result: docs }); 
                         }
                       else
-                        {res.status(200).send({ msg: "Event not Found",  result: [] });  }
+                        {res.status(200).send({ msg: "Evento non trovato",  result: [] });  }
           })
        .catch(function(err)
               { console.log('[getNearEvents] '+err);

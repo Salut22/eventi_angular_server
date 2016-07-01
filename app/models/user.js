@@ -13,9 +13,6 @@ var defaultGender  = 'm';
 // create a schema
 var userSchema = new Schema({
   basic   :    {
-                
-//                fb_id     : { type:String},
-//      token_for_business  : { type:String,  unique  : true, sparse:true},
                 name      : { type: String, required: true},
                 last_name : { type: String},
                 nickname  : { type: String, unique: true,  sparse:true},
@@ -27,13 +24,7 @@ var userSchema = new Schema({
                 bday      : Date,   	    
                 email     : { type:String, validate: emailValidator, unique:true,  sparse:true},
                 password  : { type: String,  minlength:6},   
-//                gender    : { type: String, default: defaultGender},
-/*                address   :   {
-                               city     : { type: String},
-                               country  : { type: String},
-                               state    : { type: String}
-                              }
-  */             },
+},
   
 });
 

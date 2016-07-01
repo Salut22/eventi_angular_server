@@ -15,8 +15,8 @@ var FileStreamRotator = require('file-stream-rotator');
     jwt               = require('jsonwebtoken');
     config            = require('./config');
     q                 = require('q');
-   idToken="";
-   admin="";
+    idToken           = "";
+    admin             = "";
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -52,8 +52,7 @@ app.use(function(req, res, next){
 
 
 // get an instance of the express Router
-var router = express.Router();              
-//var bears  = require('./Route/Bears');
+var router             = express.Router();              
 var api                = require('./Route/api');
 var users              = require('./Route/users');
 var loadEvent          = require('./Route/loadEvent');

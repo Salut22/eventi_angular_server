@@ -20,10 +20,7 @@ var Preferito       = require('../app/models/preferito');
  exports.addEvent = function()   
     {
         return function(req, res){
-        console.log("poosdkodsf"+JSON.stringify(req.body));
         var preferito=req.body.preferiti[0];
-        console.log(idToken);
- //       Preferito.findById(req.body.userId)
         Preferito.findById(idToken)
         .then(function(docs)
            {
@@ -32,7 +29,6 @@ var Preferito       = require('../app/models/preferito');
                var trovato=false;
                for (i in docs.prodotto)
                 {
-                    console.log('**********************');
                     if (preferito.details.idEvento==docs.prodotto[i].details.idEvento)
                     {
                         console.log('prima '+docs.prodotto[i].details.quantita);
@@ -43,13 +39,9 @@ var Preferito       = require('../app/models/preferito');
                 }
                 console.log(trovato);
                 if (trovato == false)
-                {   
-//                    console.log(req.body.preferito[0]);
-                    
+                {                    
                     docs.prodotto.push(preferito);
-                    console.log('if'+docs.prodotto);
                 }
-                //console.log(JSON.stringify(docs.prodotto,null,2));
                  docs.save()
                  .then(function(docs)
                  {
@@ -57,7 +49,7 @@ var Preferito       = require('../app/models/preferito');
                  })
                  .catch(function(err)
                  {
-                  res.status(400).send({ msg: "Bad Request*************  Error", error: err.toString() });   
+                  res.status(400).send({ msg: "Bad Request  Error", error: err.toString() });   
                  })
             }
             else 
@@ -67,7 +59,7 @@ var Preferito       = require('../app/models/preferito');
           })
        .catch(function(err)
               { console.log('Preferito non presente'+err);
-                res.status(400).send({ msg: "Bad Request################## Error", error: err.toString() }); 
+                res.status(400).send({ msg: "Bad Request Error", error: err.toString() }); 
               });
     }
  }
@@ -77,28 +69,22 @@ var Preferito       = require('../app/models/preferito');
     return function(req, res){
         var preferito=req.body;
         console.log(req.body);
-//        var idPreferito   = preferito.userId;
         var idEvent  = preferito.eventId;
         console.log(idEvent);
         var trovato  = false;
-//        Preferito.findById(idPreferito)
         Preferito.findById(idToken)
         .then(function(docs)
            {
               for (i in docs.prodotto)
                 {
-                    console.log('**********************');
                     if (idEvent==docs.prodotto[i].details.idEvento)
                     {
-                        console.log('prima '+docs.prodotto[i]);
                         docs.prodotto.splice(i,1);
-                        console.log('dopo '+docs.prodotto);
                         trovato = true;
                     }
                 }
                 if(trovato==true)
                 {
-                  console.log(docs);
                   docs.save()
                  .then(function(docs)
                  {
@@ -106,19 +92,16 @@ var Preferito       = require('../app/models/preferito');
                  })
                  .catch(function(err)
                  {
-                  res.status(400).send({ msg: "Bad Request*************  Error", error: err.toString() });   
+                  res.status(400).send({ msg: "Bad Request  Error", error: err.toString() });   
                  }) 
                 }
                  
           })
        .catch(function(err)
-              { console.log('Preferito non presente'+err);
-                res.status(400).send({ msg: "Bad Request################## Error", error: err.toString() }); 
+              { 
+                console.log('Preferito non presente'+err);
+                res.status(400).send({ msg: "Bad Request Error", error: err.toString()}); 
               });
-        
-        
-        
-        
     } 
  }
  

@@ -1,37 +1,38 @@
 var mongoose   = require('mongoose');
-//var Bear       = require('../app/models/bear');
 var User       = require('../app/models/user');
 var jwt        = require('jsonwebtoken');
 var config     = require('../config');
-//router.route('/bears/:bear_id')
 
     exports.getUserById = function()   
     {
-        return function(req, res){
-        User.findById(req.params.user_id, function(err, user) {
-            if (err)
-                res.send(err);
-            res.json(user);
-        })
-}
+        return function(req, res)
+        {
+            User.findById(req.params.user_id, function(err, user) 
+            {
+                if (err)
+                    res.send(err);
+                res.status(200).send({msg:"utente trovato",result:user});
+            })
+        }
     }
+    
     exports.updates=function()
     {
-     return function(req, res){
+     return function(req, res)
+     {
     
-    User.findById(req.params.user_id, function(err, user){
+        User.findById(req.params.user_id, function(err, user){
         
         if(err)
               res.send(err);
 
-            user.name     = req.body.name;    // update the users info
+            user.name     = req.body.name;    
             
-            // save the user
             user.save(function(err) {
                 if (err)
                     res.send(err);
 
-                res.json({ message: 'user updated!' });
+                res.status(200).send({ message: 'user updated!',result:user.name });
             });
 
         });
@@ -48,9 +49,9 @@ var config     = require('../config');
                 res.send(err);
 
             if (user === 0)
-                res.json({message:'aaa'});
+                res.status(400).send({result:"user non trovato"});
             else
-            res.json({ message: 'Successfully deleted' });
+            res.status(400).send({ msg: 'user cancellato con successo' });
         });
     }
     }
@@ -65,65 +66,47 @@ exports.authenticate = function()
      return function(req, res) 
      {
         var users =req.body;
-//        console.log(users);
-        User.findOne({
-        'basic.nickname'    : users.username,
-        'basic.password'    : users.password
+        User.findOne
+        ({
+            'basic.nickname'    : users.username,
+            'basic.password'    : users.password
         })
-.then(function (user)
-{
-    if (!user) {
-        var err='Authentication failed. user not found.';
-      res.status(400).send({msg:"utente non trovato",error:err})
-     // throw new Error('Authentication failed. user not found.');
-               }
-    if (user.basic.password != req.body.password) 
-    {
-        var err='Authentication failed. Wrong password.';
-        res.status(400).send({msg:"Authentication failed. Wrong password.",error:err})
-//        throw new Error('Authentication failed. Wrong password.');
-    } 
-    else {
-//        console.log(user);
-      //if user is found and password is right create a token
-        //res.json({message: user});    
-//        var token = jwt.sign(user._id, app.get('superSecret'), {
-//            expiresInMinutes: 1440 // expires in 24 hours
-//          });
-        var paramss ={
-        _id     : user._id,
-        basic   :    {
-            time1log        : user.basic.time1log,
-            counter         : user.basic.counter,
-            differenzaTempo : user.basic.differenzaTempo,
-            timeLastRequest : user.basic.timeLastRequest,
-            admin           : user.basic.admin
-               }
-        };
-        var token  = jwt.sign(paramss, app.get('superSecret'), {
- //       var token = jwt.sign(user, app.get('superSecret'), {
- //           expiresInMinutes: 1440 // expires in 24 hours
-        expiresIn: '36h'
-          });
-        //console.log(token);
-        res.status(200).send({msg:"Enjoy your token!",result:user, token: token});    
-    }
-})
-.catch(function(err)
-       {
-            console.error(err);
-            
-            res.status(400).send({msg:"utente non autenticato",error:err});
-        });
+        .then(function (user)
+        {
+            if (!user) 
+            {
+                var err='Autenticazione fallita, utente non trovato';
+                res.status(400).send({msg:"utente non trovato",error:err});
+            }
+            if (user.basic.password != req.body.password) 
+            {
+                var err='Autenticazione fallita. Password errata';
+                res.status(400).send({msg:"Autenticazione fallita. Password errata",error:err})
+            } 
+            else 
+            {
+                var paramss =
+                {
+                    _id     : user._id,
+                    basic   :    {
+                                    time1log        : user.basic.time1log,
+                                    counter         : user.basic.counter,
+                                    differenzaTempo : user.basic.differenzaTempo,
+                                    timeLastRequest : user.basic.timeLastRequest,
+                                    admin           : user.basic.admin
+                                 }   
+                };
+                var token  = jwt.sign(paramss, app.get('superSecret'), {
+                expiresIn: '36h'
+                  });
+                res.status(200).send({msg:"Token!",result:user, token: token});    
+            }
+        })
+        .catch(function(err)
+           {
+                console.error(err);
+
+                res.status(400).send({msg:"utente non autenticato",error:err});
+            });
     }
 }
-   
-  
-    
-    
-    
-    
-    
-    
-    
-   

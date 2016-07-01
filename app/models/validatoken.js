@@ -19,15 +19,8 @@ exports.validatoken = function()
         var token;
         var tokenUrl;
    
-       // console.log("sono in ValidaToken"+JSON.stringify(req.body));
-//            if (req.url==='/users/authenticate'||req.url==='/api/users/')
-//            {
-//                next('route');
-//                return;
-//            }
-        try{url=req.url.split('?');}
-        catch(e){};
-        console.log(url[0]);
+        try{    url=req.url.split('?');     } catch(e){};
+        
         if (matching.match(/\/getPreferiti\/[a-z0-9]/)!=null)
         {
             url = "/getPreferiti/:preferito_id";
@@ -45,20 +38,12 @@ exports.validatoken = function()
                   next('route');
                   return;
         }
-            
-//            if (req.url=='/addEvent')
-//            {
-//                console.log('diverso da addEvent');
-//                next('route');
-//                return;
-//            }
+
            
             token = tokenUrl || req.query.token || req.headers['x-access-token'];
-           // console.log(token);
-            // decode token
             if (token) 
             {
-                // verifies secret and checks exp
+                // inserisce la chiave di sicurezza per decodificare il token
                 jwt.verify(token, app.get('superSecret'), function(err, decoded) {      
                 if (err) 
                 {
@@ -66,14 +51,11 @@ exports.validatoken = function()
                 } 
                 else 
                 {
-                    // if everything is good, save to request for use in other routes
+                    // se è andato tutto bene qui abbiamo il token decodificato
                     req.decoded = decoded;
-                    //console.log(req.decoded);
-                    //idToken=decoded._doc._id;
                     idToken=decoded._id;
-                    console.log(JSON.stringify(decoded.basic.admin));
+                    console.log(JSON.stringify(decoded,null,2));
                     admin=decoded.basic.admin;
-                   // console.log(idToken);
                     User.findById
                     ({
                         _id : idToken
@@ -132,7 +114,7 @@ exports.validatoken = function()
      }
     else
     {
-        console.log("porco latro");
+        res.status(404).send({msg:"token non trovato",result:"accesso negato"})
     }
   }
 }
