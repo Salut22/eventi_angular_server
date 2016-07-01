@@ -12,7 +12,7 @@ var _addSubCategory ; // private function defined later...
 
 // create a schema
 var eventSchema = new Schema({
-  type      :    { type:String,	required:true, default:"Feature"},
+//  type      :    { type:String,	required:true, default:"Feature"},
   geometry  :    {
                    type        : { type:String,	required:true},
                    coordinates : { type: [Number], required:true} // [lng, lat]
@@ -21,26 +21,26 @@ var eventSchema = new Schema({
                  {
                     title           : {type:String, },
                     "poi-type"      : {type:Number, required:true,},
-                mainCategoriesRating: [{
-                                        mainCategoryId : String,
-                                        rating         : {type: Number, min: 0, max: 5}
-                                      }],
-                subCategoriesRating: [{
-                                        subCategoryId : String,
-                                        rating         : {type: Number, min: 0, max: 5}
-                                      }],                     
-                    mainCategoriesId: {type:[String]},
-                    mainCategories  : {type:[String]},      // labels                     
-                    subCategoriesId : {type:[String]},
-                    subCategories   : {type:[String]},      // labels   
-                  microCategoriesId : {type:[String], required:true},
-                   microCategories  : {type:[String]},      // labels   
+//                mainCategoriesRating: [{
+//                                        mainCategoryId : String,
+//                                        rating         : {type: Number, min: 0, max: 5}
+//                                      }],
+//                subCategoriesRating: [{
+//                                        subCategoryId : String,
+//                                        rating         : {type: Number, min: 0, max: 5}
+//                                      }],                     
+//                    mainCategoriesId: {type:[String]},
+//                    mainCategories  : {type:[String]},      // labels                     
+//                    subCategoriesId : {type:[String]},
+//                    subCategories   : {type:[String]},      // labels   
+//                  microCategoriesId : {type:[String], required:true},
+//                   microCategories  : {type:[String]},      // labels   
 //                    dateFrom        : dateSchema,
 //                    dateTo          : dateSchema, 
 //                    dates           : [dateSchema]
                     dateFrom        : {type:Date},
                     dateTo          : {type:Date},
-                    dates           : [{type:Date}],
+//                    dates           : [{type:Date}],
                  },
  details:   {
          address : {
@@ -57,7 +57,6 @@ var eventSchema = new Schema({
                     phone    : String
                   },
         other_id: {
-            // elenchiTelefonici
                  ticket_one  : { type:String},                                      // ticket_one
                  virgilio    : { type:String}                                       // eventi e sagre
                   },
@@ -65,14 +64,12 @@ var eventSchema = new Schema({
                  ticket_one : Number,    //Ticket-one
                  virgilio   : Number     //eventi e sagre
                   },
-        photos  :   [String],
+//        photos  :   [String],
     "ph-primary":   String,
-        logos   :   [String],
-    "logo-primary" : String,
+//    "logo-primary" : String,
         desc    :   String,
-    what_visit  :   {type:String},
         price   :   {
-                     prc_info : String, // other info  (Ex. bevande escluse)
+                     prc_info : Number, // other info  (Ex. bevande escluse)
                     },
     ticket_office:   {
                      email    : { type:String, validate: emailValidator},
