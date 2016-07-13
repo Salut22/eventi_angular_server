@@ -53,7 +53,7 @@ app.use(function(req, res, next){
 
 // get an instance of the express Router
 var router             = express.Router();              
-var api                = require('./Route/api');
+//var api                = require('./Route/api');
 var users              = require('./Route/users');
 var loadEvent          = require('./Route/loadEvent');
 var validaAdmin        = require('./app/models/validaAdmin');
@@ -83,8 +83,8 @@ app.use(validate.validatoken());
 app.get   ('/users/:user_id',      users.getUserById() );
 app.put   ('/users/:user_id',      users.updates()     );
 app.delete('/users/:user_id',      users.delete()      );
-app.get   ('/api/search',          api.search()        );
-app.post  ('/api/users',           api.create()        );
+app.get   ('/api/search',          users.search()        );
+app.post  ('/api/users',           users.create()        );
 app.post  ('/users/authenticate',  users.authenticate());
 app.post  ('/admin/loadEvent',     loadEvent.loadEvent());
 app.post  ('/admin/validate',      validaAdmin.validaAdmin());

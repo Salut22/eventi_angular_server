@@ -26,7 +26,7 @@ var Preferito       = require('../app/models/preferito');
            {
             if (docs)
             { 
-               var trovato=false;
+               /*var trovato=false;
                for (i in docs.prodotto)
                 {
                     if (preferito.details.idEvento==docs.prodotto[i].details.idEvento)
@@ -40,8 +40,9 @@ var Preferito       = require('../app/models/preferito');
                 console.log(trovato);
                 if (trovato == false)
                 {                    
-                    docs.prodotto.push(preferito);
-                }
+                */
+                docs.prodotto.push(preferito);
+                //}
                  docs.save()
                  .then(function(docs)
                  {
@@ -68,9 +69,9 @@ var Preferito       = require('../app/models/preferito');
  {
     return function(req, res){
         var preferito=req.body;
-        console.log(req.body);
+        //console.log(req.body);
         var idEvent  = preferito.eventId;
-        console.log(idEvent);
+        //console.log(idEvent);
         var trovato  = false;
         Preferito.findById(idToken)
         .then(function(docs)

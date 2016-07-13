@@ -26,7 +26,7 @@ exports.validatoken = function()
             url = "/getPreferiti/:preferito_id";
             tokenUrl=req.url.split("/");
             tokenUrl=tokenUrl[2];
-            console.log("trovato"+url);
+            //console.log("trovato"+url);
         }
         else
         {
@@ -34,7 +34,6 @@ exports.validatoken = function()
         }
         if (url!='/addEvent' && url!='/removeEvent' && url!='/getPreferiti/:preferito_id' && url!='/admin/validate')
         {
-                  console.log('diverso da addEvent');
                   next('route');
                   return;
         }
