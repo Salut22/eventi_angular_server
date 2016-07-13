@@ -54,8 +54,6 @@ exports.loadEvent = function()
         };
     mkpath.sync(city); 
     var all_events    = [];
-    var all_detpois = [];   
-    var all_revpois = [];        
 
 /*============================================================
 LOAD THE ARRAYS OF POIS, DETAILS AND REVIEWS
@@ -253,8 +251,8 @@ SAVE EVENTS TO THE DB
                                event_save_promises.push(event.save()           
                                             .then(function(doc)
                                                 {
-                                                  risposta.savati.titolo=doc.properties.title;
-                                                  risposta.savati.id=doc._id;
+                                                  risposta.salvati.titolo=doc.properties.title;
+                                                  risposta.salvati.id=doc._id;
                                                  fs.appendFile(city+EVENT_SAVE_LOG,  
                                                                doc._id+'  '+doc.properties.title+'\n\n');
                                                   return doc;
